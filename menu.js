@@ -72,7 +72,9 @@ const menuList = [
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
   ];
-  
+  /*add menu items using js and the filter funtion*/
+
+
  /* return `<div class="menu-item-col">
   <img src= alt=>
   <div class="item-info">
@@ -106,7 +108,7 @@ window.addEventListener("DOMContentLoaded", function () {
        </div>
    </div>`
    });
-
+/* test code using log console*/
  console.log(displayMenu);
  displayMenu = displayMenu.join(" ");
  sectionCenter.innerHTML= displayMenu;
